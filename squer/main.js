@@ -23,7 +23,7 @@ window.addEventListener("scroll", function() {
         grow = false;
     }
 
-    if (size <=10) {
+    else if (size <=10) {
         grow = true;
     }
     
