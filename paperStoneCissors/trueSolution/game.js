@@ -45,6 +45,7 @@ function startGame() {
 
 function endGame() {
 clearImagesBorderAfrerRound();
+game.playerHand = '';
 }
 
 document.querySelector('.start').addEventListener('click', startGame);
